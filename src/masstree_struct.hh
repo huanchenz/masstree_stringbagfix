@@ -657,6 +657,7 @@ void leaf<P>::hard_assign_ksuf(int p, Str s, bool initializing,
   */
 
   //huanchen
+  //IGC
   int success = 0;
   if (ksuf_ && ksuf_->assign(p, s))
     return;
@@ -699,6 +700,7 @@ void leaf<P>::hard_assign_ksuf(int p, Str s, bool initializing,
 
     //huanchen
     //allocate the exact size for the new uint32_t stringbag
+    //EA
     size_t csz;
     if (iksuf)
 	csz = iksuf->size() - iksuf->overhead(width);

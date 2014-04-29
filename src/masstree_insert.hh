@@ -74,6 +74,7 @@ inline node_base<P>* tcursor<P>::check_leaf_insert(node_type* root,
 	n_->keylenx_[kp_] = sizeof(n_->ikey0_[0]) + 129;
 
         //huanchen
+        //WGC
         if (n_->ksuf_) {
 	  permuter_type permut(n_->permutation_);
 	  for (int i = 0; i < permut.size(); i++) {

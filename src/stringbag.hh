@@ -97,6 +97,7 @@ class stringbag {
     }
 
   //huanchen
+  //IGC
     int compact(int suf[], int width, int s_len) {
     int sp = overhead(width);
     int position[width]; //mark each suffix's starting position
